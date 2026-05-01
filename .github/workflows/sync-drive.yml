@@ -1,93 +1,37 @@
-import os
-import io
-import re
-import unicodedata
-import shutil
+name: Sync Google Drive Images
 
-from google.oauth2 import service_account
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaIoBaseDownload
+on:
+  workflow_dispatch:
 
+permissions:
+  contents: write
 
-# 🔥 CONFIGURAÇÕES
-FOLDER_ID = "1gHH_jC3MiCpyJjtXGki4vDkzYDhLroj0"
-DEST_FOLDER = "images"
+jobs:
+  sync:
+    runs-on: ubuntu-latest
 
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-# 🔥 FUNÇÃO DE LIMPEZA
-def limpar(texto):
-    texto = unicodedata.normalize("NFKD", texto)
-    texto = texto.encode("ascii", "ignore").decode("ascii")
-    texto = texto.lower()
-    texto = re.sub(r"[^a-z0-9]+", "-", texto)
-    return texto.strip("-")
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
+      - name: Install dependencies
+        run: pip install google-api-python-client google-auth
 
-# 🔥 PADRONIZA NOME FINAL
-def gerar_nome(nome):
-    nome, ext = os.path.splitext(nome)
-    ext = ext.lower()
+      - name: Create Google credentials file
+        run: echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}' > service-account.json
 
-    nome = limpar(nome)
+      - name: Sync images from Google Drive
+        run: python scripts/sync_drive.py
 
-    return f"perfume-{nome}{ext}"
-
-
-# 🔐 AUTENTICAÇÃO
-creds = service_account.Credentials.from_service_account_file(
-    "service-account.json",
-    scopes=["https://www.googleapis.com/auth/drive.readonly"]
-)
-
-service = build("drive", "v3", credentials=creds)
-
-
-# 🔍 BUSCA ARQUIVOS
-query = f"'{FOLDER_ID}' in parents and trashed = false"
-
-results = service.files().list(
-    q=query,
-    fields="files(id, name, mimeType)"
-).execute()
-
-files = results.get("files", [])
-
-
-# 🧹 LIMPA PASTA (ANTI-DUPLICAÇÃO)
-if os.path.exists(DEST_FOLDER):
-    shutil.rmtree(DEST_FOLDER)
-
-os.makedirs(DEST_FOLDER, exist_ok=True)
-
-
-print("🚀 Iniciando download das imagens...\n")
-
-
-# 📥 DOWNLOAD
-for file in files:
-    mime = file.get("mimeType", "")
-
-    # 🚫 ignora não imagem
-    if not mime.startswith("image/"):
-        print(f"⛔ Ignorado (não imagem): {file['name']}")
-        continue
-
-    file_id = file["id"]
-    nome_original = file["name"]
-
-    nome_final = gerar_nome(nome_original)
-    filepath = os.path.join(DEST_FOLDER, nome_final)
-
-    request = service.files().get_media(fileId=file_id)
-
-    with io.FileIO(filepath, "wb") as fh:
-        downloader = MediaIoBaseDownload(fh, request)
-        done = False
-
-        while not done:
-            _, done = downloader.next_chunk()
-
-    print(f"✅ Baixado: {filepath}")
-
-
-print("\n🔥 Sync finalizado com sucesso!")
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add images/
+          git commit -m "Sync images from Google Drive" || echo "No changes to commit"
+          git push
