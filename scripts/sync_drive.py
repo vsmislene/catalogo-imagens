@@ -59,3 +59,24 @@ for file in files:
             _, done = downloader.next_chunk()
 
     print(f"Baixado: {filepath}")
+
+import json
+
+mapa_imagens = {}
+
+for file in files:
+    mime = file.get("mimeType", "")
+
+    if not mime.startswith("image/"):
+        continue
+
+    nome_original = file["name"]
+    nome_final = gerar_nome(nome_original)
+
+    nome_sem_ext = os.path.splitext(nome_final)[0]
+
+    mapa_imagens[nome_sem_ext] = nome_final
+
+# salva o JSON
+with open("images_map.json", "w") as f:
+    json.dump(mapa_imagens, f)
