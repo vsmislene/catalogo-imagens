@@ -11,17 +11,47 @@ FOLDER_ID = "1gHH_jC3MiCpyJjtXGki4vDkzYDhLroj0"
 DEST_FOLDER = "images"
 MAP_FILE = "images_map.json"
 
+def remover_acentos(texto):
+    texto = unicodedata.normalize("NFKD", texto)
+    return texto.encode("ascii", "ignore").decode("ascii")
+
 def slugify_filename(filename):
     name, ext = os.path.splitext(filename)
     ext = ext.lower()
 
-    name = unicodedata.normalize("NFKD", name)
-    name = name.encode("ascii", "ignore").decode("ascii")
+    name = remover_acentos(name)
     name = name.lower()
     name = re.sub(r"[^a-z0-9]+", "-", name)
     name = name.strip("-")
 
     return f"{name}{ext}"
+
+def formatar_visual_parte(texto):
+    texto = remover_acentos(texto)
+    texto = re.sub(r"[^a-zA-Z0-9]+", " ", texto)
+    texto = texto.strip()
+
+    if not texto:
+        return ""
+
+    return "".join(palavra[:1].upper() + palavra[1:].lower() for palavra in texto.split())
+
+def gerar_label_visual(filename):
+    name, ext = os.path.splitext(filename)
+    partes = name.split("-")
+
+    if len(partes) < 4:
+        return name.upper()
+
+    prefixo = partes[0].upper()
+    pagina = partes[1].upper()
+    marca = partes[-1]
+    nome = "-".join(partes[2:-1])
+
+    nome_formatado = formatar_visual_parte(nome)
+    marca_formatada = formatar_visual_parte(marca)
+
+    return f"{prefixo}-{pagina}-{nome_formatado}-{marca_formatada}"
 
 creds = service_account.Credentials.from_service_account_file(
     "service-account.json",
@@ -55,21 +85,26 @@ for file in files:
     nome_original = file["name"]
 
     nome_final = slugify_filename(nome_original)
-    filepath = os.path.join(DEST_FOLDER, nome_final)
+    caminho_final = os.path.join(DEST_FOLDER, nome_final)
 
     request = service.files().get_media(fileId=file_id)
 
-    with io.FileIO(filepath, "wb") as fh:
+    with io.FileIO(caminho_final, "wb") as fh:
         downloader = MediaIoBaseDownload(fh, request)
         done = False
 
         while not done:
             _, done = downloader.next_chunk()
 
-    nome_sem_ext = os.path.splitext(nome_final)[0]
-    mapa_imagens[nome_sem_ext] = nome_final
+    chave = os.path.splitext(nome_final)[0]
+    label = gerar_label_visual(nome_final)
 
-    print(f"Baixado: {filepath}")
+    mapa_imagens[chave] = {
+        "file": nome_final,
+        "label": label
+    }
+
+    print(f"Baixado: {caminho_final}")
 
 with open(MAP_FILE, "w", encoding="utf-8") as f:
     json.dump(mapa_imagens, f, ensure_ascii=False, indent=2, sort_keys=True)
