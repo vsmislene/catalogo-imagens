@@ -99,10 +99,6 @@
     "file": "perfume-arabes-frenchavenuevulcanedp-vulcan.jpeg",
     "label": "PERFUME-ARABES-Frenchavenuevulcanedp-Vulcan"
   },
-  "perfume-arabes-gislenelinda-lattafa": {
-    "file": "perfume-arabes-gislenelinda-lattafa.webp",
-    "label": "PERFUME-ARABES-Gislenelinda-Lattafa"
-  },
   "perfume-arabes-hawasdivaedp-rasasi": {
     "file": "perfume-arabes-hawasdivaedp-rasasi.webp",
     "label": "PERFUME-ARABES-Hawasdivaedp-Rasasi"
@@ -158,10 +154,6 @@
   "perfume-arabes-yaratouseaudeparfum-lattafa": {
     "file": "perfume-arabes-yaratouseaudeparfum-lattafa.jpeg",
     "label": "PERFUME-ARABES-Yaratouseaudeparfum-Lattafa"
-  },
-  "perfume-bodysplash-bodysplash-victoriassecret": {
-    "file": "perfume-bodysplash-bodysplash-victoriassecret.webp",
-    "label": "PERFUME-BODYSPLASH-Bodysplash-Victoriassecret"
   },
   "perfume-femininos-212viprosenyelixir-carolinaherrera": {
     "file": "perfume-femininos-212viprosenyelixir-carolinaherrera.png",
@@ -302,5 +294,13 @@
   "perfume-masculinos-scuderiaferrariredeaudetoilette-ferrari": {
     "file": "perfume-masculinos-scuderiaferrariredeaudetoilette-ferrari.png",
     "label": "PERFUME-MASCULINOS-Scuderiaferrariredeaudetoilette-Ferrari"
+  },
+  "perfume-victoriassecret-bodysplash-victoriassecret": {
+    "file": "perfume-victoriassecret-bodysplash-victoriassecret.webp",
+    "label": "PERFUME-VICTORIASSECRET-Bodysplash-Victoriassecret"
+  },
+  "perfume-victoriassecret-cremehidratante-victoriassecret": {
+    "file": "perfume-victoriassecret-cremehidratante-victoriassecret.png",
+    "label": "PERFUME-VICTORIASSECRET-Cremehidratante-Victoriassecret"
   }
 }
