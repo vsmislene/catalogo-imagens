@@ -111,10 +111,6 @@
     "file": "perfume-arabes-khateereaudeparfum-maisonasrar.webp",
     "label": "PERFUME-ARABES-Khateereaudeparfum-Maisonasrar"
   },
-  "perfume-arabes-kitperfumelattafayaracollectionedp-lattafa": {
-    "file": "perfume-arabes-kitperfumelattafayaracollectionedp-lattafa.jpeg",
-    "label": "PERFUME-ARABES-Kitperfumelattafayaracollectionedp-Lattafa"
-  },
   "perfume-arabes-latttafaafeef-lattafa": {
     "file": "perfume-arabes-latttafaafeef-lattafa.jpeg",
     "label": "PERFUME-ARABES-Latttafaafeef-Lattafa"
@@ -147,6 +143,10 @@
     "file": "perfume-arabes-yaracandyeaudeparfum-lattafa.jpeg",
     "label": "PERFUME-ARABES-Yaracandyeaudeparfum-Lattafa"
   },
+  "perfume-arabes-yaracollectionkitperfumelattafa-lattafa": {
+    "file": "perfume-arabes-yaracollectionkitperfumelattafa-lattafa.jpeg",
+    "label": "PERFUME-ARABES-Yaracollectionkitperfumelattafa-Lattafa"
+  },
   "perfume-arabes-yaraelixir-lattafa": {
     "file": "perfume-arabes-yaraelixir-lattafa.jpeg",
     "label": "PERFUME-ARABES-Yaraelixir-Lattafa"
@@ -154,6 +154,10 @@
   "perfume-arabes-yaratouseaudeparfum-lattafa": {
     "file": "perfume-arabes-yaratouseaudeparfum-lattafa.jpeg",
     "label": "PERFUME-ARABES-Yaratouseaudeparfum-Lattafa"
+  },
+  "perfume-bodysplash-bodysplash-victoriassecret": {
+    "file": "perfume-bodysplash-bodysplash-victoriassecret.webp",
+    "label": "PERFUME-BODYSPLASH-Bodysplash-Victoriassecret"
   },
   "perfume-femininos-212viprosenyelixir-carolinaherrera": {
     "file": "perfume-femininos-212viprosenyelixir-carolinaherrera.png",
