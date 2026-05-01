@@ -32,7 +32,12 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add images/
-          git commit -m "Sync images from Google Drive" || echo "No changes to commit"
-          git push
+
           git add images/ images_map.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Sync images from Google Drive"
+            git push
+          fi
