@@ -2,8 +2,11 @@ name: Sync Google Drive Images
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "*/30 * * * *"
+    inputs:
+      trigger:
+        description: "Execução manual via Sheets"
+        required: false
+
 
 permissions:
   contents: write
