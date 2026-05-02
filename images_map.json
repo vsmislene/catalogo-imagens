@@ -235,13 +235,13 @@
     "file": "perfume-cosmeticos-condicionadoraussie-aussie.png",
     "label": "PERFUME-COSMETICOS-Condicionadoraussie-Aussie"
   },
-  "perfume-cosmeticos-condicionadoraussie-aussie-2": {
-    "file": "perfume-cosmeticos-condicionadoraussie-aussie-2.png",
-    "label": "PERFUME-COSMETICOS-CondicionadoraussieAussie-2"
-  },
   "perfume-cosmeticos-condicionadoraussie3minute-aussie": {
     "file": "perfume-cosmeticos-condicionadoraussie3minute-aussie.png",
     "label": "PERFUME-COSMETICOS-Condicionadoraussie3minute-Aussie"
+  },
+  "perfume-cosmeticos-condicionadoraussiegrande-aussie": {
+    "file": "perfume-cosmeticos-condicionadoraussiegrande-aussie.png",
+    "label": "PERFUME-COSMETICOS-Condicionadoraussiegrande-Aussie"
   },
   "perfume-cosmeticos-esfoliantecorporaltreehut-treehut": {
     "file": "perfume-cosmeticos-esfoliantecorporaltreehut-treehut.png",
@@ -267,9 +267,9 @@
     "file": "perfume-cosmeticos-shampooaussie-aussie.png",
     "label": "PERFUME-COSMETICOS-Shampooaussie-Aussie"
   },
-  "perfume-cosmeticos-shampooaussie-aussie-2": {
-    "file": "perfume-cosmeticos-shampooaussie-aussie-2.png",
-    "label": "PERFUME-COSMETICOS-ShampooaussieAussie-2"
+  "perfume-cosmeticos-shampooaussiegrande-aussie": {
+    "file": "perfume-cosmeticos-shampooaussiegrande-aussie.png",
+    "label": "PERFUME-COSMETICOS-Shampooaussiegrande-Aussie"
   },
   "perfume-femininos-212viprosenyelixir-carolinaherrera": {
     "file": "perfume-femininos-212viprosenyelixir-carolinaherrera.png",
