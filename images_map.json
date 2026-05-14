@@ -455,10 +455,6 @@
     "file": "perfume-cosmeticos-condicionadoraussie-aussie.png",
     "label": "PERFUME-COSMETICOS-Condicionadoraussie-Aussie"
   },
-  "perfume-cosmeticos-condicionadorshiseidofinopremiumtouch-fino": {
-    "file": "perfume-cosmeticos-condicionadorshiseidofinopremiumtouch-fino.png",
-    "label": "PERFUME-COSMETICOS-Condicionadorshiseidofinopremiumtouch-Fino"
-  },
   "perfume-cosmeticos-cremaparacontornodeojosnumbuzinn9nadretinopvolumetox": {
     "file": "perfume-cosmeticos-cremaparacontornodeojosnumbuzinn9nadretinopvolumetox.png",
     "label": "PERFUME-COSMETICOS-CREMAPARACONTORNODEOJOSNUMBUZINN9NADRETINOPVOLUMETOX"
@@ -495,17 +491,9 @@
     "file": "perfume-cosmeticos-mascarafacialmedicubecollagemnightwrappingmask-medicube.png",
     "label": "PERFUME-COSMETICOS-Mascarafacialmedicubecollagemnightwrappingmask-Medicube"
   },
-  "perfume-cosmeticos-mascarareparadoracapilarshiseidofinopremiumtouch-shiseido": {
-    "file": "perfume-cosmeticos-mascarareparadoracapilarshiseidofinopremiumtouch-shiseido.jpg",
-    "label": "PERFUME-COSMETICOS-Mascarareparadoracapilarshiseidofinopremiumtouch-Shiseido"
-  },
   "perfume-cosmeticos-mascrafacialmedicubepdrnpinkcollagemgel": {
     "file": "perfume-cosmeticos-mascrafacialmedicubepdrnpinkcollagemgel.png",
     "label": "PERFUME-COSMETICOS-MASCRAFACIALMEDICUBEPDRNPINKCOLLAGEMGEL"
-  },
-  "perfume-cosmeticos-oleocapilarfinopremiumtouchhairoil-shiseido": {
-    "file": "perfume-cosmeticos-oleocapilarfinopremiumtouchhairoil-shiseido.jpg",
-    "label": "PERFUME-COSMETICOS-Oleocapilarfinopremiumtouchhairoil-Shiseido"
   },
   "perfume-cosmeticos-protectorsolarskin1004madagascarcentellahyalucicawaterfitserumspf50-centella": {
     "file": "perfume-cosmeticos-protectorsolarskin1004madagascarcentellahyalucicawaterfitserumspf50-centella.png",
@@ -543,9 +531,21 @@
     "file": "perfume-cosmeticos-serumfacielmedicubepdrnpinkpeptide-medicube.png",
     "label": "PERFUME-COSMETICOS-Serumfacielmedicubepdrnpinkpeptide-Medicube"
   },
-  "perfume-cosmeticos-shampooshiseidofinopremiumtouch-fino": {
-    "file": "perfume-cosmeticos-shampooshiseidofinopremiumtouch-fino.png",
-    "label": "PERFUME-COSMETICOS-Shampooshiseidofinopremiumtouch-Fino"
+  "perfume-cosmeticos-shiseidofinopremiumtouch-fino": {
+    "file": "perfume-cosmeticos-shiseidofinopremiumtouch-fino.jpg",
+    "label": "PERFUME-COSMETICOS-Shiseidofinopremiumtouch-Fino"
+  },
+  "perfume-cosmeticos-shiseidofinopremiumtouchcondicionador-fino": {
+    "file": "perfume-cosmeticos-shiseidofinopremiumtouchcondicionador-fino.png",
+    "label": "PERFUME-COSMETICOS-Shiseidofinopremiumtouchcondicionador-Fino"
+  },
+  "perfume-cosmeticos-shiseidofinopremiumtouchhairoil-fino": {
+    "file": "perfume-cosmeticos-shiseidofinopremiumtouchhairoil-fino.jpg",
+    "label": "PERFUME-COSMETICOS-Shiseidofinopremiumtouchhairoil-Fino"
+  },
+  "perfume-cosmeticos-shiseidofinopremiumtouchshampoo-fino": {
+    "file": "perfume-cosmeticos-shiseidofinopremiumtouchshampoo-fino.png",
+    "label": "PERFUME-COSMETICOS-Shiseidofinopremiumtouchshampoo-Fino"
   },
   "perfume-femininos-212viprosenyelixir-carolinaherrera": {
     "file": "perfume-femininos-212viprosenyelixir-carolinaherrera.png",
