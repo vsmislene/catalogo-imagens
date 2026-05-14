@@ -415,6 +415,10 @@
     "file": "perfume-cosmeticos-aussie3minute-aussie.png",
     "label": "PERFUME-COSMETICOS-Aussie3minute-Aussie"
   },
+  "perfume-cosmeticos-aussiecondicionador-aussie": {
+    "file": "perfume-cosmeticos-aussiecondicionador-aussie.png",
+    "label": "PERFUME-COSMETICOS-Aussiecondicionador-Aussie"
+  },
   "perfume-cosmeticos-aussiegrandecondicionador-aussie": {
     "file": "perfume-cosmeticos-aussiegrandecondicionador-aussie.png",
     "label": "PERFUME-COSMETICOS-Aussiegrandecondicionador-Aussie"
@@ -450,10 +454,6 @@
   "perfume-cosmeticos-braeessential250mlshampoo-essential": {
     "file": "perfume-cosmeticos-braeessential250mlshampoo-essential.png",
     "label": "PERFUME-COSMETICOS-Braeessential250mlshampoo-Essential"
-  },
-  "perfume-cosmeticos-condicionadoraussie-aussie": {
-    "file": "perfume-cosmeticos-condicionadoraussie-aussie.png",
-    "label": "PERFUME-COSMETICOS-Condicionadoraussie-Aussie"
   },
   "perfume-cosmeticos-cremaparacontornodeojosnumbuzinn9nadretinopvolumetox": {
     "file": "perfume-cosmeticos-cremaparacontornodeojosnumbuzinn9nadretinopvolumetox.png",
