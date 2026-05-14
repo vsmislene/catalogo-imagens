@@ -223,6 +223,10 @@
     "file": "perfume-arabes-kitlattafaasadcollection-lattafa.png",
     "label": "PERFUME-ARABES-Kitlattafaasadcollection-Lattafa"
   },
+  "perfume-arabes-kitminiaturasyaracollection-lattafa": {
+    "file": "perfume-arabes-kitminiaturasyaracollection-lattafa.png",
+    "label": "PERFUME-ARABES-Kitminiaturasyaracollection-Lattafa"
+  },
   "perfume-arabes-kitperfumelattafa-lattafa": {
     "file": "perfume-arabes-kitperfumelattafa-lattafa.png",
     "label": "PERFUME-ARABES-Kitperfumelattafa-Lattafa"
@@ -234,6 +238,10 @@
   "perfume-arabes-kitperfumelattafafakharextrait-lattafa": {
     "file": "perfume-arabes-kitperfumelattafafakharextrait-lattafa.png",
     "label": "PERFUME-ARABES-Kitperfumelattafafakharextrait-Lattafa"
+  },
+  "perfume-arabes-kitperfumelattafayaracollection-lattafa": {
+    "file": "perfume-arabes-kitperfumelattafayaracollection-lattafa.jpeg",
+    "label": "PERFUME-ARABES-Kitperfumelattafayaracollection-Lattafa"
   },
   "perfume-arabes-latttafaafeef-lattafa": {
     "file": "perfume-arabes-latttafaafeef-lattafa.jpeg",
@@ -302,14 +310,6 @@
   "perfume-arabes-yaracandyeaudeparfum-lattafa": {
     "file": "perfume-arabes-yaracandyeaudeparfum-lattafa.jpeg",
     "label": "PERFUME-ARABES-Yaracandyeaudeparfum-Lattafa"
-  },
-  "perfume-arabes-yaracollectionkitperfumelattafa-lattafa": {
-    "file": "perfume-arabes-yaracollectionkitperfumelattafa-lattafa.jpeg",
-    "label": "PERFUME-ARABES-Yaracollectionkitperfumelattafa-Lattafa"
-  },
-  "perfume-arabes-yaracollectionlattafayaraminiaturas-lattafa": {
-    "file": "perfume-arabes-yaracollectionlattafayaraminiaturas-lattafa.png",
-    "label": "PERFUME-ARABES-Yaracollectionlattafayaraminiaturas-Lattafa"
   },
   "perfume-arabes-yaraeaudeparfum-lattafa": {
     "file": "perfume-arabes-yaraeaudeparfum-lattafa.png",
