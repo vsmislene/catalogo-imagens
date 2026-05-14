@@ -411,6 +411,22 @@
     "file": "perfume-cosmeticos-almofadastonicasmedicubezeroporepad20-medicube.png",
     "label": "PERFUME-COSMETICOS-Almofadastonicasmedicubezeroporepad20-Medicube"
   },
+  "perfume-cosmeticos-aussie3minute-aussie": {
+    "file": "perfume-cosmeticos-aussie3minute-aussie.png",
+    "label": "PERFUME-COSMETICOS-Aussie3minute-Aussie"
+  },
+  "perfume-cosmeticos-aussiegrandecondicionador-aussie": {
+    "file": "perfume-cosmeticos-aussiegrandecondicionador-aussie.png",
+    "label": "PERFUME-COSMETICOS-Aussiegrandecondicionador-Aussie"
+  },
+  "perfume-cosmeticos-aussiegrandeshampoo-aussie": {
+    "file": "perfume-cosmeticos-aussiegrandeshampoo-aussie.png",
+    "label": "PERFUME-COSMETICOS-Aussiegrandeshampoo-Aussie"
+  },
+  "perfume-cosmeticos-aussieshampoo-aussie": {
+    "file": "perfume-cosmeticos-aussieshampoo-aussie.png",
+    "label": "PERFUME-COSMETICOS-Aussieshampoo-Aussie"
+  },
   "perfume-cosmeticos-boosterfacialcelimaxthevitaaretinalshottightening-celimax": {
     "file": "perfume-cosmeticos-boosterfacialcelimaxthevitaaretinalshottightening-celimax.jpg",
     "label": "PERFUME-COSMETICOS-Boosterfacialcelimaxthevitaaretinalshottightening-Celimax"
@@ -438,14 +454,6 @@
   "perfume-cosmeticos-condicionadoraussie-aussie": {
     "file": "perfume-cosmeticos-condicionadoraussie-aussie.png",
     "label": "PERFUME-COSMETICOS-Condicionadoraussie-Aussie"
-  },
-  "perfume-cosmeticos-condicionadoraussie3minute-aussie": {
-    "file": "perfume-cosmeticos-condicionadoraussie3minute-aussie.png",
-    "label": "PERFUME-COSMETICOS-Condicionadoraussie3minute-Aussie"
-  },
-  "perfume-cosmeticos-condicionadoraussiegrande-aussie": {
-    "file": "perfume-cosmeticos-condicionadoraussiegrande-aussie.png",
-    "label": "PERFUME-COSMETICOS-Condicionadoraussiegrande-Aussie"
   },
   "perfume-cosmeticos-condicionadorshiseidofinopremiumtouch-fino": {
     "file": "perfume-cosmeticos-condicionadorshiseidofinopremiumtouch-fino.png",
@@ -534,14 +542,6 @@
   "perfume-cosmeticos-serumfacielmedicubepdrnpinkpeptide-medicube": {
     "file": "perfume-cosmeticos-serumfacielmedicubepdrnpinkpeptide-medicube.png",
     "label": "PERFUME-COSMETICOS-Serumfacielmedicubepdrnpinkpeptide-Medicube"
-  },
-  "perfume-cosmeticos-shampooaussie-aussie": {
-    "file": "perfume-cosmeticos-shampooaussie-aussie.png",
-    "label": "PERFUME-COSMETICOS-Shampooaussie-Aussie"
-  },
-  "perfume-cosmeticos-shampooaussiegrande-aussie": {
-    "file": "perfume-cosmeticos-shampooaussiegrande-aussie.png",
-    "label": "PERFUME-COSMETICOS-Shampooaussiegrande-Aussie"
   },
   "perfume-cosmeticos-shampooshiseidofinopremiumtouch-fino": {
     "file": "perfume-cosmeticos-shampooshiseidofinopremiumtouch-fino.png",
