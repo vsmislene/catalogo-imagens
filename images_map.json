@@ -415,6 +415,26 @@
     "file": "perfume-cosmeticos-boosterfacialcelimaxthevitaaretinalshottightening-celimax.jpg",
     "label": "PERFUME-COSMETICOS-Boosterfacialcelimaxthevitaaretinalshottightening-Celimax"
   },
+  "perfume-cosmeticos-braeessential-essential": {
+    "file": "perfume-cosmeticos-braeessential-essential.png",
+    "label": "PERFUME-COSMETICOS-Braeessential-Essential"
+  },
+  "perfume-cosmeticos-braeessential1lcondicionador-essential": {
+    "file": "perfume-cosmeticos-braeessential1lcondicionador-essential.png",
+    "label": "PERFUME-COSMETICOS-Braeessential1lcondicionador-Essential"
+  },
+  "perfume-cosmeticos-braeessential1lshampoo-essential": {
+    "file": "perfume-cosmeticos-braeessential1lshampoo-essential.png",
+    "label": "PERFUME-COSMETICOS-Braeessential1lshampoo-Essential"
+  },
+  "perfume-cosmeticos-braeessential250mlcondicionador-essential": {
+    "file": "perfume-cosmeticos-braeessential250mlcondicionador-essential.png",
+    "label": "PERFUME-COSMETICOS-Braeessential250mlcondicionador-Essential"
+  },
+  "perfume-cosmeticos-braeessential250mlshampoo-essential": {
+    "file": "perfume-cosmeticos-braeessential250mlshampoo-essential.png",
+    "label": "PERFUME-COSMETICOS-Braeessential250mlshampoo-Essential"
+  },
   "perfume-cosmeticos-condicionadoraussie-aussie": {
     "file": "perfume-cosmeticos-condicionadoraussie-aussie.png",
     "label": "PERFUME-COSMETICOS-Condicionadoraussie-Aussie"
@@ -426,14 +446,6 @@
   "perfume-cosmeticos-condicionadoraussiegrande-aussie": {
     "file": "perfume-cosmeticos-condicionadoraussiegrande-aussie.png",
     "label": "PERFUME-COSMETICOS-Condicionadoraussiegrande-Aussie"
-  },
-  "perfume-cosmeticos-condicionadorbraeessential1l": {
-    "file": "perfume-cosmeticos-condicionadorbraeessential1l.png",
-    "label": "PERFUME-COSMETICOS-CONDICIONADORBRAEESSENTIAL1L"
-  },
-  "perfume-cosmeticos-condicionadorbraeessential250ml": {
-    "file": "perfume-cosmeticos-condicionadorbraeessential250ml.png",
-    "label": "PERFUME-COSMETICOS-CONDICIONADORBRAEESSENTIAL250ML"
   },
   "perfume-cosmeticos-condicionadorshiseidofinopremiumtouch-fino": {
     "file": "perfume-cosmeticos-condicionadorshiseidofinopremiumtouch-fino.png",
@@ -470,10 +482,6 @@
   "perfume-cosmeticos-geldelavagemtreehut-treehut": {
     "file": "perfume-cosmeticos-geldelavagemtreehut-treehut.png",
     "label": "PERFUME-COSMETICOS-Geldelavagemtreehut-Treehut"
-  },
-  "perfume-cosmeticos-mascarabraeessential": {
-    "file": "perfume-cosmeticos-mascarabraeessential.png",
-    "label": "PERFUME-COSMETICOS-MASCARABRAEESSENTIAL"
   },
   "perfume-cosmeticos-mascarafacialmedicubecollagemnightwrappingmask-medicube": {
     "file": "perfume-cosmeticos-mascarafacialmedicubecollagemnightwrappingmask-medicube.png",
@@ -534,14 +542,6 @@
   "perfume-cosmeticos-shampooaussiegrande-aussie": {
     "file": "perfume-cosmeticos-shampooaussiegrande-aussie.png",
     "label": "PERFUME-COSMETICOS-Shampooaussiegrande-Aussie"
-  },
-  "perfume-cosmeticos-shampoobraeessential1l": {
-    "file": "perfume-cosmeticos-shampoobraeessential1l.png",
-    "label": "PERFUME-COSMETICOS-SHAMPOOBRAEESSENTIAL1L"
-  },
-  "perfume-cosmeticos-shampoobraeessential250ml": {
-    "file": "perfume-cosmeticos-shampoobraeessential250ml.png",
-    "label": "PERFUME-COSMETICOS-SHAMPOOBRAEESSENTIAL250ML"
   },
   "perfume-cosmeticos-shampooshiseidofinopremiumtouch-fino": {
     "file": "perfume-cosmeticos-shampooshiseidofinopremiumtouch-fino.png",
