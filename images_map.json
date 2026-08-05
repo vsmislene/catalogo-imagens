@@ -1,8 +1,4 @@
 {
-  "million-gold-for-her-eau-de-parfum": {
-    "file": "million-gold-for-her-eau-de-parfum.png",
-    "label": "MILLION-GOLD-ForHerEauDe-Parfum"
-  },
   "perfume-arabes-1963eaudeparfum-maisonasrar": {
     "file": "perfume-arabes-1963eaudeparfum-maisonasrar.webp",
     "label": "PERFUME-ARABES-1963eaudeparfum-Maisonasrar"
@@ -734,6 +730,10 @@
   "perfume-femininos-librelabsoluplatine-yvessaintlaurent": {
     "file": "perfume-femininos-librelabsoluplatine-yvessaintlaurent.webp",
     "label": "PERFUME-FEMININOS-Librelabsoluplatine-Yvessaintlaurent"
+  },
+  "perfume-femininos-milliongoldforhereaudeparfum-pacorabanne": {
+    "file": "perfume-femininos-milliongoldforhereaudeparfum-pacorabanne",
+    "label": "PERFUME-FEMININOS-Milliongoldforhereaudeparfum-Pacorabanne"
   },
   "perfume-femininos-olympeaabsoluparfumintense-pacorabanne": {
     "file": "perfume-femininos-olympeaabsoluparfumintense-pacorabanne.webp",
